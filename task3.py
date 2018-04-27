@@ -21,7 +21,7 @@ def DetermineColor(img):
 
     # TODO: Determine color
 
-    # TODO: 
+    # TODO: find circles
 
     return color, mono
 
