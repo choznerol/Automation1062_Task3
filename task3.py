@@ -37,7 +37,7 @@ def markcircles(img, circles):
     
 
 image = cv2.imread('./src/red3.jpg')
-circles_found, color_found = DetermineColor_FindCircles(image)
+color_found, circles_found = DetermineColor_FindCircles(image)
 
 markcircles(image, circles_found)
 print(color_found)
